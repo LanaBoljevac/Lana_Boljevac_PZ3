@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <title>O meni - Lana Boljevac</title>
+  <style>
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-image: url("pozadina.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      position: relative;
+      color: #2e2e2e;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      background-image: inherit;
+      background-size: cover;
+      background-position: center;
+      filter: blur(10px);
+      z-index: -1;
+    }
+
+    h1 {
+      font-family: Arial, sans-serif;
+      font-size: 3em;
+      margin-top: 40px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0 auto 40px auto;
+      width: fit-content;
+    }
+
+    nav li {
+      display: inline-block;
+      margin: 0 10px;
+      background-color: rgba(255, 182, 193, 0.8);
+      padding: 12px 20px;
+      border-radius: 25px;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      text-transform: uppercase;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .okvir {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.6);
+      padding: 20px;
+      border-radius: 20px;
+      line-height: 1.6em;
+    }
+
+    .slike img {
+      width: 30%;
+      margin: 10px;
+      border-radius: 10px;
+    }
+	  
+	.slike {
+      text-align: center;
+    }
+
+   .slike figure {
+     display: inline-block;
+     width: 28%;
+     margin: 10px;
+     vertical-align: top;
+   }
+
+  .slike img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .slike figcaption {
+    font-size: 0.9em;
+    color: #444;
+    margin-top: 5px;
+  }
+
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>O meni</h1>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Početna</a></li>
+      <li><a href="o_meni.html">O meni</a></li>
+      <li><a href="vjezbe.html">Vježbe</a></li>
+      <li><a href="video.html">Video</a></li>
+    </ul>
+  </nav>
+
+  <div class="okvir">
+  <p>Zovem se Lana Boljevac i studentica sam Grafičkog fakulteta. <br>
+	U slobodno vrijeme čitam knjige, posječujem muzeje i galerije, <br>
+	a posebno volim raditi gel nokte prijateljicama.<br>
+    <b>FUN FACT: mogu složiti Rubikovu kocku u manje od 1 minute!</b>
+	</p>
+
+   
+	  
+<div class="slike">
+  <figure>
+    <img src="slike/Bodies_2.0.jpg" alt="Bodies 2.0">
+    <figcaption>Bodies 2.0</figcaption>
+  </figure>
+
+  <figure>
+    <img src="slike/Reptilomanija2023.jpg" alt="Reptilomanija+ 2023">
+    <figcaption>Reptilomanija+ 2023.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="slike/Mijo_Kovacic_Koprivnica.jpg" alt="Mijo Kovačić, Koprivnica 2025">
+    <figcaption>Galerija Mijo Kovačić,Koprivnica</figcaption>
+  </figure>
+</div>
+
+   
+ <p>Video koji me inspirira:</p>
+    <iframe 
+			width="560" 
+			height="315" 
+			src="https://www.youtube.com/embed/UagOXpNCc10" 
+			frameborder="0" 
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+			allowfullscreen></iframe>
+
+<footer>
+    Kontakt: <a href="mailto:lanaboljevac01@gmail.com">lanaboljevac01@gmail.com</a>
+  </footer>
+	  
+	</div>
+
+</body>
+</html>
